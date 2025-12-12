@@ -1,8 +1,8 @@
 {
   "siteName": "ForkFeed",
-  "siteUrl": "",
+  "siteUrl": "https://DomCritchlow.github.io/forkfeed",
   "siteDescription": "A personal microblog",
-  "authorName": "forkfeed",
-  "repoUrl": "https://github.com/domcritchlow/forkfeed",
-  "branch": "live"
+  "authorName": "DomCritchlow",
+  "repoUrl": "https://github.com/DomCritchlow/forkfeed",
+  "branch": "main"
 }
