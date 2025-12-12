@@ -13,16 +13,6 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
-    "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
-    "date": "2025-12-12T17:01:07.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246031\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html"
-  },
-  {
-    "sourceName": "Hacker News",
-    "sourceUrl": "https://news.ycombinator.com/",
-    "feedUrl": "https://news.ycombinator.com/rss",
     "postUrl": "https://flak.tedunangst.com/post/async-dns",
     "title": "Async DNS",
     "date": "2025-12-12T16:52:41.000Z",
@@ -38,6 +28,16 @@
     "date": "2025-12-12T16:32:43.000Z",
     "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245731\">Comments</a>",
     "id": "Hacker News-https://news.ycombinator.com/rss-https://www.raspberrypi.org/blog/secondary-school-maths-showing-that-ai-systems-dont-think/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/",
+    "title": "String Theory Inspires a Brilliant, Baffling New Math Proof",
+    "date": "2025-12-12T16:23:10.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245622\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/"
   },
   {
     "sourceName": "Hacker News",

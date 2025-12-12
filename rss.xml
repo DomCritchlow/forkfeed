@@ -5,24 +5,24 @@
     <link>https://DomCritchlow.github.io/forkfeed</link>
     <description>A personal microblog</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 18:26:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 18:28:37 GMT</lastBuildDate>
     <atom:link href="https://DomCritchlow.github.io/forkfeed/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Welcome to ForkFeed! 🎉
+This is my first post on F...</title>
+      <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</link>
+      <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</guid>
+      <pubDate>Fri, 12 Dec 2025 19:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Welcome to ForkFeed! 🎉</p>
+<p>This is my first post on ForkFeed. Fork the Repo and try it out for yourself. <a href="https://github.com/DomCritchlow/forkfeed">https://github.com/DomCritchlow/forkfeed</a></p>
+]]></description>
+    </item>
     <item>
       <title>Example photo post. Upload your own images to medi...</title>
       <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</link>
       <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</guid>
       <pubDate>Fri, 12 Dec 2025 14:30:00 GMT</pubDate>
       <description><![CDATA[<p>Example photo post. Upload your own images to <code>media/</code> and reference them with <code>image: &quot;/media/your-photo.jpg&quot;</code></p>
-]]></description>
-    </item>
-    <item>
-      <title>Welcome to ForkFeed! 🎉
-This is an example post. D...</title>
-      <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</link>
-      <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</guid>
-      <pubDate>Fri, 12 Dec 2025 12:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Welcome to ForkFeed! 🎉</p>
-<p>This is an example post. Delete it and the photo example, then create your own posts here.</p>
 ]]></description>
     </item>
   </channel>
