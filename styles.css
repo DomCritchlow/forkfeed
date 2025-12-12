@@ -202,15 +202,15 @@ article:first-child {
 /* Post content */
 .post-title {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 4px;
 }
 
 .post-snippet {
-  font-size: 14px;
-  color: var(--text-light);
-  line-height: 1.5;
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.6;
   margin-bottom: 8px;
 }
 

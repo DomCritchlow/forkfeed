@@ -64,7 +64,7 @@ Your post content here. Supports **markdown**.
 ```markdown
 ---
 date: "2025-12-12T10:30:00Z"
-image: "/media/photo.jpg"
+image: "media/photo.jpg"
 ---
 
 Caption for your photo ✨
