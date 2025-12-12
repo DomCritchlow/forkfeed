@@ -13,6 +13,16 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
+    "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
+    "date": "2025-12-12T17:01:07.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246031\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
     "postUrl": "https://flak.tedunangst.com/post/async-dns",
     "title": "Async DNS",
     "date": "2025-12-12T16:52:41.000Z",
@@ -78,16 +88,6 @@
     "date": "2025-12-12T13:23:31.000Z",
     "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243883\">Comments</a>",
     "id": "Hacker News-https://news.ycombinator.com/rss-https://fedorarepository.org/"
-  },
-  {
-    "sourceName": "Hacker News",
-    "sourceUrl": "https://news.ycombinator.com/",
-    "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.paradedb.com/blog/when-tokenization-becomes-token",
-    "title": "From text to token: How tokenization pipelines work",
-    "date": "2025-12-11T14:45:49.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46232003\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.paradedb.com/blog/when-tokenization-becomes-token"
   },
   {
     "sourceName": "xkcd",
