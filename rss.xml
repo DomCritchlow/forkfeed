@@ -5,14 +5,14 @@
     <link>https://DomCritchlow.github.io/forkfeed</link>
     <description>A personal microblog</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 18:23:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 18:45:45 GMT</lastBuildDate>
     <atom:link href="https://DomCritchlow.github.io/forkfeed/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Example photo post. Upload your own images to medi...</title>
       <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</link>
       <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</guid>
       <pubDate>Fri, 12 Dec 2025 14:30:00 GMT</pubDate>
-      <description><![CDATA[<p>Example photo post. Upload your own images to <code>media/</code> and reference them with <code>image: &quot;/media/your-photo.jpg&quot;</code></p>
+      <description><![CDATA[<p>Example photo post. Upload your own images to <code>media/</code> and reference them with <code>image: &quot;media/your-photo.jpg&quot;</code></p>
 ]]></description>
     </item>
     <item>
