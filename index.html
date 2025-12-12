@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForkFeed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html" id="site-title">ForkFeed</a></h1>
+      <nav>
+        <a href="posts.html" id="posts-link">Posts</a>
+        <a href="rss.xml">RSS</a>
+        <span class="spacer"></span>
+        <a href="#" id="subscribe-btn" class="btn" style="display: none;">Subscribe</a>
+        <a href="#" id="new-post-btn" class="btn" style="display: none;">Post</a>
+      </nav>
+    </header>
+    <main id="timeline">
+      <p class="empty">Loading...</p>
+    </main>
+  </div>
+
+  <footer>
+    <span>Built by <a href="https://critchlow.us" target="_blank" rel="noopener">critchlow.us</a></span>
+    <div class="footer-links">
+      <a href="https://github.com/domcritchlow/forkfeed" target="_blank" rel="noopener">Fork this</a>
+      <a href="rss.xml">RSS</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async function() {
+      const config = await loadConfig();
+      
+      document.getElementById('site-title').textContent = config.siteName;
+      document.title = config.siteName;
+      updateNav(config);
+      setupButtons(config);
+
+      const timeline = document.getElementById('timeline');
+      
+      try {
+        const [timelineRes, postsRes] = await Promise.all([
+          fetch('timeline.json'),
+          fetch('posts.json')
+        ]);
+        
+        const externalItems = timelineRes.ok ? await timelineRes.json() : [];
+        const ownPosts = postsRes.ok ? await postsRes.json() : [];
+        
+        const ownItems = ownPosts.map(post => ({
+          sourceName: config.authorName,
+          sourceUrl: 'posts.html',
+          postUrl: post.url,
+          title: '',
+          date: post.date,
+          contentHtml: post.html,
+          isOwnPost: true,
+          image: post.image
+        }));
+        
+        const items = [...externalItems, ...ownItems].sort((a, b) => 
+          new Date(b.date) - new Date(a.date)
+        );
+        
+        if (!items.length) {
+          timeline.innerHTML = '<p class="empty">No posts yet.</p>';
+          return;
+        }
+        
+        timeline.innerHTML = items.map(item => {
+          const dateStr = formatDate(item.date);
+          const titleHtml = item.title ? `<div class="post-title">${esc(item.title)}</div>` : '';
+          const snippet = getSnippet(item.contentHtml);
+          
+          let contentHtml = '';
+          if (item.isOwnPost && item.image) {
+            contentHtml = `<div class="post-image-preview"><img src="${esc(item.image)}" alt=""></div>`;
+            if (snippet) contentHtml += `<div class="post-snippet">${esc(snippet)}</div>`;
+          } else if (hasImage(item.contentHtml)) {
+            const imgSrc = extractImageSrc(item.contentHtml);
+            if (imgSrc) contentHtml = `<div class="post-image-preview"><img src="${esc(imgSrc)}" alt=""></div>`;
+          } else if (!isCommentsLink(item.contentHtml) && snippet) {
+            contentHtml = `<div class="post-snippet">${esc(snippet)}</div>`;
+          }
+          
+          const authorLink = item.isOwnPost ? 'posts.html' : `feed.html?name=${encodeURIComponent(item.sourceName)}`;
+          const linkAttrs = item.isOwnPost ? '' : 'target="_blank" rel="noopener"';
+          const linkArrow = item.isOwnPost ? '→' : '↗';
+          
+          return `
+            <article>
+              <div class="post-header">
+                <span class="post-author"><a href="${authorLink}">${esc(item.sourceName)}</a></span>
+                <span class="post-date">· ${dateStr}</span>
+              </div>
+              ${titleHtml}
+              ${contentHtml}
+              <a href="${esc(item.postUrl)}" class="post-link" ${linkAttrs}>View full post ${linkArrow}</a>
+            </article>
+          `;
+        }).join('');
+      } catch (e) {
+        timeline.innerHTML = '<p class="empty">Failed to load.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

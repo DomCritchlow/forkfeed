@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed — ForkFeed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html" id="feed-name">Loading...</a></h1>
+      <span class="spacer"></span>
+      <span class="feed-url" id="feed-url"></span>
+    </header>
+    <main id="timeline">
+      <p class="empty">Loading...</p>
+    </main>
+  </div>
+
+  <footer>
+    <span>Built by <a href="https://critchlow.us" target="_blank" rel="noopener">critchlow.us</a></span>
+    <div class="footer-links">
+      <a href="https://github.com/domcritchlow/forkfeed" target="_blank" rel="noopener">Fork this</a>
+      <a href="rss.xml">RSS</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async function() {
+      const timeline = document.getElementById('timeline');
+      const feedNameEl = document.getElementById('feed-name');
+      const feedUrlEl = document.getElementById('feed-url');
+      
+      const feedName = new URLSearchParams(location.search).get('name');
+      
+      if (!feedName) {
+        feedNameEl.textContent = 'Feed not found';
+        timeline.innerHTML = '<p class="empty">No feed specified.</p>';
+        return;
+      }
+      
+      try {
+        const res = await fetch('timeline.json');
+        if (!res.ok) throw new Error();
+        const items = await res.json();
+        
+        const feedItems = items.filter(item => item.sourceName === feedName);
+        
+        if (!feedItems.length) {
+          feedNameEl.textContent = feedName;
+          timeline.innerHTML = '<p class="empty">No posts from this feed.</p>';
+          return;
+        }
+        
+        const firstItem = feedItems[0];
+        feedNameEl.textContent = feedName;
+        feedUrlEl.innerHTML = `<a href="${esc(firstItem.sourceUrl)}" target="_blank" rel="noopener">${esc(firstItem.sourceUrl)}</a>`;
+        document.title = `${feedName} — ForkFeed`;
+        
+        timeline.innerHTML = feedItems.map(item => {
+          const dateStr = formatDate(item.date);
+          const titleHtml = item.title ? `<div class="post-title">${esc(item.title)}</div>` : '';
+          const snippet = getSnippet(item.contentHtml);
+          
+          let contentHtml = '';
+          if (hasImage(item.contentHtml)) {
+            const imgSrc = extractImageSrc(item.contentHtml);
+            if (imgSrc) contentHtml = `<div class="post-image-preview"><img src="${esc(imgSrc)}" alt=""></div>`;
+          } else if (!isCommentsLink(item.contentHtml) && snippet) {
+            contentHtml = `<div class="post-snippet">${esc(snippet)}</div>`;
+          }
+          
+          return `
+            <article>
+              <div class="post-date">${dateStr}</div>
+              ${titleHtml}
+              ${contentHtml}
+              <a href="${esc(item.postUrl)}" class="post-link" target="_blank" rel="noopener">View full post ↗</a>
+            </article>
+          `;
+        }).join('');
+      } catch (e) {
+        timeline.innerHTML = '<p class="empty">Failed to load.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

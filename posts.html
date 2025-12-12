@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForkFeed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html" id="site-title">ForkFeed</a></h1>
+      <nav>
+        <a href="posts.html" id="posts-link" class="active">Posts</a>
+        <a href="rss.xml">RSS</a>
+        <span class="spacer"></span>
+        <a href="#" id="subscribe-btn" class="btn" style="display: none;">Subscribe</a>
+        <a href="#" id="new-post-btn" class="btn" style="display: none;">Post</a>
+      </nav>
+    </header>
+    <main id="timeline">
+      <p class="empty">Loading...</p>
+    </main>
+  </div>
+
+  <footer>
+    <span>Built by <a href="https://critchlow.us" target="_blank" rel="noopener">critchlow.us</a></span>
+    <div class="footer-links">
+      <a href="https://github.com/domcritchlow/forkfeed" target="_blank" rel="noopener">Fork this</a>
+      <a href="rss.xml">RSS</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async function() {
+      const config = await loadConfig();
+      
+      document.getElementById('site-title').textContent = config.siteName;
+      document.title = `${config.authorName} — ${config.siteName}`;
+      updateNav(config);
+      setupButtons(config);
+
+      const timeline = document.getElementById('timeline');
+      
+      try {
+        const res = await fetch('posts.json');
+        if (!res.ok) throw new Error();
+        const posts = await res.json();
+        
+        if (!posts.length) {
+          timeline.innerHTML = '<p class="empty">No posts yet.</p>';
+          return;
+        }
+        
+        timeline.innerHTML = posts.map(post => {
+          const dateStr = formatDate(post.date);
+          const imageHtml = post.image 
+            ? `<div class="post-image"><img src="${esc(post.image)}" alt=""></div>` 
+            : '';
+          
+          return `
+            <article>
+              <div class="post-header">
+                <span class="post-author">${esc(config.authorName)}</span>
+                <span class="post-date">· ${dateStr}</span>
+              </div>
+              ${imageHtml}
+              <div class="post-content">${post.html}</div>
+            </article>
+          `;
+        }).join('');
+      } catch (e) {
+        timeline.innerHTML = '<p class="empty">Failed to load.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+[
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://github.com/Ami3466/tomcp",
+    "title": "Show HN: tomcp.org – Turn any URL into an MCP server",
+    "date": "2025-12-12T17:10:16.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246117\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://github.com/Ami3466/tomcp"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://flak.tedunangst.com/post/async-dns",
+    "title": "Async DNS",
+    "date": "2025-12-12T16:52:41.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245923\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://flak.tedunangst.com/post/async-dns"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
+    "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
+    "date": "2025-12-12T16:04:16.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245398\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.phoronix.com/news/Framework-50p-DDR5-Memory",
+    "title": "Framework Raises DDR5 Memory Prices by 50% for DIY Laptops",
+    "date": "2025-12-12T15:58:10.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245331\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.phoronix.com/news/Framework-50p-DDR5-Memory"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy",
+    "title": "CM0 – a new Raspberry Pi you can't buy",
+    "date": "2025-12-12T15:19:19.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46244922\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
+    "title": "SQLite JSON at Full Index Speed Using Generated Columns",
+    "date": "2025-12-12T13:25:19.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243904\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://fedorarepository.org/",
+    "title": "Fedora: Open-source repository for long-term digital preservation",
+    "date": "2025-12-12T13:23:31.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243883\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://fedorarepository.org/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.paradedb.com/blog/when-tokenization-becomes-token",
+    "title": "From text to token: How tokenization pipelines work",
+    "date": "2025-12-11T14:45:49.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46232003\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.paradedb.com/blog/when-tokenization-becomes-token"
+  },
+  {
+    "sourceName": "xkcd",
+    "sourceUrl": "https://xkcd.com/",
+    "feedUrl": "https://xkcd.com/rss.xml",
+    "postUrl": "https://xkcd.com/3179/",
+    "title": "Fishing",
+    "date": "2025-12-10T05:00:00.000Z",
+    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/fishing.png\" title=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" alt=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" />",
+    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3179/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://bytesauna.com/post/microservices",
+    "title": "Microservices Should Form a Polytree",
+    "date": "2025-12-08T07:24:49.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46189395\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://bytesauna.com/post/microservices"
+  },
+  {
+    "sourceName": "xkcd",
+    "sourceUrl": "https://xkcd.com/",
+    "feedUrl": "https://xkcd.com/rss.xml",
+    "postUrl": "https://xkcd.com/3178/",
+    "title": "Hyperacute Interdynamics",
+    "date": "2025-12-08T05:00:00.000Z",
+    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/hyperacute_interdynamics.png\" title=\"Our models fall apart where the three theories overlap; we're unable to predict what happens when a nanometer-sized squirrel eats a grapefruit with the mass of the sun.\" alt=\"Our models fall apart where the three theories overlap; we're unable to predict what happens when a nanometer-sized squirrel eats a grapefruit with the mass of the sun.\" />",
+    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3178/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html",
+    "title": "4 billion if statements (2023)",
+    "date": "2025-12-06T15:34:26.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46174114\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html"
+  },
+  {
+    "sourceName": "xkcd",
+    "sourceUrl": "https://xkcd.com/",
+    "feedUrl": "https://xkcd.com/rss.xml",
+    "postUrl": "https://xkcd.com/3177/",
+    "title": "Chessboard Alignment",
+    "date": "2025-12-05T05:00:00.000Z",
+    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/chessboard_alignment.png\" title=\"Luckily, the range is limited by the fact that the square boundary lines follow great circles.\" alt=\"Luckily, the range is limited by the fact that the square boundary lines follow great circles.\" />",
+    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3177/"
+  },
+  {
+    "sourceName": "xkcd",
+    "sourceUrl": "https://xkcd.com/",
+    "feedUrl": "https://xkcd.com/rss.xml",
+    "postUrl": "https://xkcd.com/3176/",
+    "title": "Inverted Catenaries",
+    "date": "2025-12-03T05:00:00.000Z",
+    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/inverted_catenaries.png\" title=\"Some tires are marketed as 'all-shape tires,' but if driven in a climate with both inverted catenary falls and triangle falls, they wear out really fast.\" alt=\"Some tires are marketed as 'all-shape tires,' but if driven in a climate with both inverted catenary falls and triangle falls, they wear out really fast.\" />",
+    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3176/"
+  }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForkFeed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html" id="site-title">ForkFeed</a></h1>
+      <nav>
+        <a href="posts.html">← Posts</a>
+      </nav>
+    </header>
+    <main id="post-container">
+      <p class="empty">Loading...</p>
+    </main>
+  </div>
+
+  <footer>
+    <span>Built by <a href="https://critchlow.us" target="_blank" rel="noopener">critchlow.us</a></span>
+    <div class="footer-links">
+      <a href="https://github.com/domcritchlow/forkfeed" target="_blank" rel="noopener">Fork this</a>
+      <a href="rss.xml">RSS</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    (async function() {
+      const config = await loadConfig();
+      document.getElementById('site-title').textContent = config.siteName;
+      
+      const container = document.getElementById('post-container');
+      const postId = new URLSearchParams(location.search).get('id');
+      
+      if (!postId) {
+        showNotFound();
+        return;
+      }
+      
+      try {
+        const res = await fetch('posts.json');
+        if (!res.ok) throw new Error();
+        const posts = await res.json();
+        const post = posts.find(p => p.id === postId);
+        
+        if (!post) {
+          showNotFound();
+          return;
+        }
+        
+        const date = new Date(post.date);
+        const dateStr = date.toLocaleDateString('en-GB', {
+          weekday: 'long',
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric'
+        });
+        
+        const imageHtml = post.image 
+          ? `<div class="post-image"><img src="${esc(post.image)}" alt=""></div>` 
+          : '';
+        
+        container.innerHTML = `
+          <article>
+            <div class="post-date">${dateStr}</div>
+            ${imageHtml}
+            <div class="post-content">${post.html}</div>
+          </article>
+        `;
+      } catch (e) {
+        showNotFound();
+      }
+      
+      function showNotFound() {
+        document.title = 'Not Found — ForkFeed';
+        container.innerHTML = '<p class="empty">Post not found. <a href="posts.html">Back to posts</a></p>';
+      }
+    })();
+  </script>
+</body>
+</html>

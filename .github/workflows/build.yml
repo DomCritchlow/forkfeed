@@ -1,0 +1,70 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - live
+  # Uncomment to auto-refresh external feeds on a schedule:
+  # schedule:
+  #   - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    env:
+      # Site configuration - customize these in your repository settings
+      # or override with repository variables
+      SITE_TITLE: ${{ vars.SITE_TITLE || 'ForkFeed' }}
+      SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+      SITE_DESCRIPTION: ${{ vars.SITE_DESCRIPTION || 'A personal microblog' }}
+      AUTHOR_NAME: ${{ vars.AUTHOR_NAME || github.repository_owner }}
+      REPO_URL: https://github.com/${{ github.repository }}
+      DEFAULT_BRANCH: ${{ vars.DEFAULT_BRANCH || github.ref_name }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate site config
+        run: node scripts/buildConfig.mjs
+
+      - name: Build posts (posts.json + rss.xml)
+        run: node scripts/buildPosts.mjs
+
+      - name: Build aggregator (timeline.json)
+        run: node scripts/buildAggregator.mjs
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add config.json posts.json rss.xml timeline.json
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      # Only commit on 'live' branch (personal blog) or 'main' for forkers
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update generated files [skip ci]"
+          git push
+

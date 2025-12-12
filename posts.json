@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2025-12-12-photo-example",
+    "title": null,
+    "date": "2025-12-12T14:30:00Z",
+    "type": "text",
+    "image": "/media/sample-photo.svg",
+    "tags": [
+      "example"
+    ],
+    "url": "/post.html?id=2025-12-12-photo-example",
+    "html": "<p>Example photo post. Upload your own images to <code>media/</code> and reference them with <code>image: &quot;/media/your-photo.jpg&quot;</code></p>\n"
+  },
+  {
+    "id": "2025-12-12-welcome",
+    "title": null,
+    "date": "2025-12-12T12:00:00Z",
+    "type": "text",
+    "image": null,
+    "tags": [
+      "example"
+    ],
+    "url": "/post.html?id=2025-12-12-welcome",
+    "html": "<p>Welcome to ForkFeed! 🎉</p>\n<p>This is an example post. Delete it and the photo example, then create your own posts here.</p>\n"
+  }
+]

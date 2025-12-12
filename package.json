@@ -1,0 +1,20 @@
+{
+  "name": "forkfeed",
+  "version": "1.0.0",
+  "description": "Personal microblog with RSS feed aggregation for GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/buildPosts.mjs && node scripts/buildAggregator.mjs",
+    "build:posts": "node scripts/buildPosts.mjs",
+    "build:aggregator": "node scripts/buildAggregator.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}
+

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional: uncomment if you want to exclude generated files
+# (by default they're committed so GitHub Pages can serve them)
+# config.json
+# posts.json
+# rss.xml
+# timeline.json
+
+# Environment files
+.env
+.env.local
+

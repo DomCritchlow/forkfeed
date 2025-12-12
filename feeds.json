@@ -1,0 +1,10 @@
+[
+  {
+    "name": "xkcd",
+    "url": "https://xkcd.com/rss.xml"
+  },
+  {
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/rss"
+  }
+]
