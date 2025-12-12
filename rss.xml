@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ForkFeed</title>
-    <link>https://example.github.io/forkfeed</link>
+    <link>https://DomCritchlow.github.io/forkfeed</link>
     <description>A personal microblog</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 17:28:21 GMT</lastBuildDate>
-    <atom:link href="https://example.github.io/forkfeed/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 12 Dec 2025 18:26:03 GMT</lastBuildDate>
+    <atom:link href="https://DomCritchlow.github.io/forkfeed/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Example photo post. Upload your own images to medi...</title>
-      <link>https://example.github.io/forkfeed/post.html?id=2025-12-12-photo-example</link>
-      <guid isPermaLink="true">https://example.github.io/forkfeed/post.html?id=2025-12-12-photo-example</guid>
+      <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</link>
+      <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-photo-example</guid>
       <pubDate>Fri, 12 Dec 2025 14:30:00 GMT</pubDate>
       <description><![CDATA[<p>Example photo post. Upload your own images to <code>media/</code> and reference them with <code>image: &quot;/media/your-photo.jpg&quot;</code></p>
 ]]></description>
@@ -18,8 +18,8 @@
     <item>
       <title>Welcome to ForkFeed! 🎉
 This is an example post. D...</title>
-      <link>https://example.github.io/forkfeed/post.html?id=2025-12-12-welcome</link>
-      <guid isPermaLink="true">https://example.github.io/forkfeed/post.html?id=2025-12-12-welcome</guid>
+      <link>https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</link>
+      <guid isPermaLink="true">https://DomCritchlow.github.io/forkfeed/post.html?id=2025-12-12-welcome</guid>
       <pubDate>Fri, 12 Dec 2025 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Welcome to ForkFeed! 🎉</p>
 <p>This is an example post. Delete it and the photo example, then create your own posts here.</p>

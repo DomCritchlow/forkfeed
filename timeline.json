@@ -13,6 +13,16 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
+    "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
+    "date": "2025-12-12T17:01:07.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246031\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
     "postUrl": "https://flak.tedunangst.com/post/async-dns",
     "title": "Async DNS",
     "date": "2025-12-12T16:52:41.000Z",
@@ -23,21 +33,21 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
-    "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
-    "date": "2025-12-12T16:04:16.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245398\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/"
+    "postUrl": "https://www.raspberrypi.org/blog/secondary-school-maths-showing-that-ai-systems-dont-think/",
+    "title": "Secondary school maths showing that AI systems don't think",
+    "date": "2025-12-12T16:32:43.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245731\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.raspberrypi.org/blog/secondary-school-maths-showing-that-ai-systems-dont-think/"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.phoronix.com/news/Framework-50p-DDR5-Memory",
-    "title": "Framework Raises DDR5 Memory Prices by 50% for DIY Laptops",
-    "date": "2025-12-12T15:58:10.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245331\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.phoronix.com/news/Framework-50p-DDR5-Memory"
+    "postUrl": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
+    "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
+    "date": "2025-12-12T16:04:16.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245398\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/"
   },
   {
     "sourceName": "Hacker News",
@@ -88,16 +98,6 @@
     "date": "2025-12-10T05:00:00.000Z",
     "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/fishing.png\" title=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" alt=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" />",
     "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3179/"
-  },
-  {
-    "sourceName": "Hacker News",
-    "sourceUrl": "https://news.ycombinator.com/",
-    "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://bytesauna.com/post/microservices",
-    "title": "Microservices Should Form a Polytree",
-    "date": "2025-12-08T07:24:49.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46189395\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://bytesauna.com/post/microservices"
   },
   {
     "sourceName": "xkcd",
