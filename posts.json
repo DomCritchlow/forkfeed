@@ -8,7 +8,7 @@
     "tags": [
       "example"
     ],
-    "url": "/post.html?id=2025-12-12-welcome",
+    "url": "post.html?id=2025-12-12-welcome",
     "html": "<p>Welcome to ForkFeed! 🎉</p>\n<p>This is my first post on ForkFeed. Fork the Repo and try it out for yourself. <a href=\"https://github.com/DomCritchlow/forkfeed\">https://github.com/DomCritchlow/forkfeed</a></p>\n"
   },
   {
@@ -20,7 +20,7 @@
     "tags": [
       "example"
     ],
-    "url": "/post.html?id=2025-12-12-photo-example",
+    "url": "post.html?id=2025-12-12-photo-example",
     "html": "<p>My first photo post.</p>\n"
   }
 ]
