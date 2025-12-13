@@ -77,7 +77,7 @@ function readPosts() {
         type: frontmatter.type || 'text',
         image: frontmatter.image || null,
         tags: frontmatter.tags || [],
-        url: `/post.html?id=${encodeURIComponent(id)}`,
+        url: `post.html?id=${encodeURIComponent(id)}`,
         html
       });
     } catch (err) {
