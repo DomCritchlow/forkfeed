@@ -3,91 +3,81 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.rockpapershotgun.com/id-software-devs-form-wall-to-wall-union-with-165-workers-at-doom-studio-the-latest-to-vote-in-favour",
-    "title": "Id Software devs form \"wall-to-wall\" union",
-    "date": "2025-12-12T18:11:23.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246845\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.rockpapershotgun.com/id-software-devs-form-wall-to-wall-union-with-165-workers-at-doom-studio-the-latest-to-vote-in-favour"
+    "postUrl": "https://www.ghibli.jp/info/013772/",
+    "title": "1300 Still Images from the Animated Films of Hayao Miyazaki's Studio Ghibli (2023)",
+    "date": "2025-12-13T02:56:49.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46251582\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.ghibli.jp/info/013772/"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://github.com/Ami3466/tomcp",
-    "title": "Show HN: tomcp.org – Turn any URL into an MCP server",
-    "date": "2025-12-12T17:10:16.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246117\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://github.com/Ami3466/tomcp"
+    "postUrl": "https://simonwillison.net/2025/Dec/12/openai-skills/",
+    "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
+    "date": "2025-12-12T23:30:19.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46250332\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://simonwillison.net/2025/Dec/12/openai-skills/"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
-    "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
-    "date": "2025-12-12T17:01:07.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46246031\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html"
+    "postUrl": "https://github.com/ringtailsoftware/uvm32",
+    "title": "Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig",
+    "date": "2025-12-12T22:02:14.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46249538\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://github.com/ringtailsoftware/uvm32"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://flak.tedunangst.com/post/async-dns",
-    "title": "Async DNS",
-    "date": "2025-12-12T16:52:41.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245923\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://flak.tedunangst.com/post/async-dns"
+    "postUrl": "https://unifoundry.com/unifont/index.html",
+    "title": "GNU Unifont",
+    "date": "2025-12-12T20:57:34.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46248859\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://unifoundry.com/unifont/index.html"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/",
-    "title": "String Theory Inspires a Brilliant, Baffling New Math Proof",
-    "date": "2025-12-12T16:23:10.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245622\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/"
+    "postUrl": "https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt",
+    "title": "macOS 26.2 enables fast AI clusters with RDMA over Thunderbolt",
+    "date": "2025-12-12T20:41:38.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46248644\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
-    "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
-    "date": "2025-12-12T16:04:16.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46245398\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/"
+    "postUrl": "https://ratsplaydoom.com/",
+    "title": "Rats Play DOOM",
+    "date": "2025-12-12T20:15:58.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46248323\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://ratsplaydoom.com/"
   },
   {
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy",
-    "title": "CM0 – a new Raspberry Pi you can't buy",
-    "date": "2025-12-12T15:19:19.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46244922\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy"
+    "postUrl": "https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/",
+    "title": "Sick of smart TVs? Here are your best options",
+    "date": "2025-12-12T12:51:40.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243655\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/"
   },
   {
-    "sourceName": "Hacker News",
-    "sourceUrl": "https://news.ycombinator.com/",
-    "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
-    "title": "SQLite JSON at Full Index Speed Using Generated Columns",
-    "date": "2025-12-12T13:25:19.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243904\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing"
-  },
-  {
-    "sourceName": "Hacker News",
-    "sourceUrl": "https://news.ycombinator.com/",
-    "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://fedorarepository.org/",
-    "title": "Fedora: Open-source repository for long-term digital preservation",
-    "date": "2025-12-12T13:23:31.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46243883\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://fedorarepository.org/"
+    "sourceName": "xkcd",
+    "sourceUrl": "https://xkcd.com/",
+    "feedUrl": "https://xkcd.com/rss.xml",
+    "postUrl": "https://xkcd.com/3180/",
+    "title": "Apples",
+    "date": "2025-12-12T05:00:00.000Z",
+    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/apples.png\" title=\"The experimental math department's budget is under scrutiny for how much they've been spending on trains leaving Chicago at 9:00pm traveling at 45 mph.\" alt=\"The experimental math department's budget is under scrutiny for how much they've been spending on trains leaving Chicago at 9:00pm traveling at 45 mph.\" />",
+    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3180/"
   },
   {
     "sourceName": "xkcd",
@@ -98,6 +88,26 @@
     "date": "2025-12-10T05:00:00.000Z",
     "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/fishing.png\" title=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" alt=\"'That's definitely above the catch-and-release size minimum for planetesimals.' 'I'm going to throw it back anyway.'\" />",
     "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3179/"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://eavan.blog/posts/beautiful-sandpiles.html",
+    "title": "Beautiful Abelian Sandpiles",
+    "date": "2025-12-09T20:16:15.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46210044\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://eavan.blog/posts/beautiful-sandpiles.html"
+  },
+  {
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "postUrl": "https://www.smashingmagazine.com/2025/04/gild-just-one-lily/",
+    "title": "Gild Just One Lily",
+    "date": "2025-12-08T13:51:30.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46192212\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://www.smashingmagazine.com/2025/04/gild-just-one-lily/"
   },
   {
     "sourceName": "xkcd",
@@ -113,11 +123,11 @@
     "sourceName": "Hacker News",
     "sourceUrl": "https://news.ycombinator.com/",
     "feedUrl": "https://news.ycombinator.com/rss",
-    "postUrl": "https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html",
-    "title": "4 billion if statements (2023)",
-    "date": "2025-12-06T15:34:26.000Z",
-    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46174114\">Comments</a>",
-    "id": "Hacker News-https://news.ycombinator.com/rss-https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html"
+    "postUrl": "https://gwern.net/doc/technology/2008-sower.pdf",
+    "title": "Ferrari's Formula 1 Handovers: Handovers from Surgery to Intensive Care 2008;pdf",
+    "date": "2025-12-06T19:21:50.000Z",
+    "contentHtml": "<a href=\"https://news.ycombinator.com/item?id=46175888\">Comments</a>",
+    "id": "Hacker News-https://news.ycombinator.com/rss-https://gwern.net/doc/technology/2008-sower.pdf"
   },
   {
     "sourceName": "xkcd",
@@ -128,15 +138,5 @@
     "date": "2025-12-05T05:00:00.000Z",
     "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/chessboard_alignment.png\" title=\"Luckily, the range is limited by the fact that the square boundary lines follow great circles.\" alt=\"Luckily, the range is limited by the fact that the square boundary lines follow great circles.\" />",
     "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3177/"
-  },
-  {
-    "sourceName": "xkcd",
-    "sourceUrl": "https://xkcd.com/",
-    "feedUrl": "https://xkcd.com/rss.xml",
-    "postUrl": "https://xkcd.com/3176/",
-    "title": "Inverted Catenaries",
-    "date": "2025-12-03T05:00:00.000Z",
-    "contentHtml": "<img src=\"https://imgs.xkcd.com/comics/inverted_catenaries.png\" title=\"Some tires are marketed as 'all-shape tires,' but if driven in a climate with both inverted catenary falls and triangle falls, they wear out really fast.\" alt=\"Some tires are marketed as 'all-shape tires,' but if driven in a climate with both inverted catenary falls and triangle falls, they wear out really fast.\" />",
-    "id": "xkcd-https://xkcd.com/rss.xml-https://xkcd.com/3176/"
   }
 ]
